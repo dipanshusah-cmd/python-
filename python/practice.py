@@ -116,14 +116,73 @@
 # print(d)
 
 
-book = {
-    "title" : " Mr star physics " ,
-    "Author" : " Manish Raj" ,
-     "price" : 499
-}
+# book = {
+#     "title" : " Mr star physics " ,
+#     "Author" : " Manish Raj" ,
+#      "price" : 499
+# }
  
-book["year"] = 2025 
-book["price"] = 399
-del book["Author"] 
-#print(book)
+# book["year"] = 2025 
+# book["price"] = 399
+# del book["Author"] 
+# print(book.items())
+
+# Nested dictionary 
+
+# student = {
+#     "Aman" : { "age" : 18 , "marks" : 86 } , 
+#     "Kunal" : { "age" : 19 , "marks" : 89 }
+# }
+# print(student["Aman"] , student["Kunal"])
  
+ # Create a dictionary of 3 subjects and marks.Print all keys and values using loop.
+# physics = {"marks" : 85}
+# maths = {"marks" : 92}
+# chemistry = {"marks" : 90}
+# for key,value in physics.items():
+#     print(key,value)
+# for key,value in chemistry.items():
+#     print(key,value)
+# for key,value in maths.items():
+#     print(key,value) 
+
+# dict = {"a": 1, "b": 2, "c": 3} #print only values using loops 
+# for key in dict :
+#     print(dict[key])
+
+# marks = {
+#     "Math": 90,
+#     "Science": 85,
+#     "English": 88
+# }
+# for subject in marks:
+#     print(subject, marks[subject])
+
+# Store employee data in dictionary : Nmae , Age , Salary . find highest salary employee?
+# d = {
+#     "Name":["Aman","Dipanshu","Ishu"],
+#      "Age" :[ 24 , 19 , 18 ] ,
+#      "Salary" :[12000 , 34000, 45000 ]
+#      }
+# print(d["Salary"])
+# d = {
+#     "Aman" : {"Age"  : 18 , "Salary" : 12000 } ,
+#     "Akash" : {"Age" : 19 , "Salary" : 13000},
+#     "Anuj" : {"Age" :23 , "Salary": 8500} 
+# }
+#print(d["Aman"]["Age"])  # only for aman's age 
+# for name in d :
+#     print(name,d[name]["Age"])
+# maxx_salary = 0
+# emp=[]
+# for name in d :
+#     # print(name,d[name]["Age"],d[name]["Salary"])
+#     if maxx_salary < d[name]["Salary"]:
+#         maxx_salary=(d[name]["Salary"])
+#         emp = name
+# print(emp,maxx_salary)
+
+#Shopping cart system using list + dictionary : 
+#Add items , Remove items , and calculate total price 
+
+#Find unique word in a sentence using set sort dictionary by values 
