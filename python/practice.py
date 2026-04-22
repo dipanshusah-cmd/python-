@@ -185,4 +185,23 @@
 #Shopping cart system using list + dictionary : 
 #Add items , Remove items , and calculate total price 
 
-#Find unique word in a sentence using set sort dictionary by values 
+# product = {"apple" : 80 ,
+#            "mango" : 140 ,
+#            "banana" : 70 ,
+#            "grapes" :120 }
+# items = [product] 
+# Product catalog (dictionary)
+# a = input("enter product name :") 
+# b =int(input ("enter quantity(a)"))
+# c =int(input("enter rate(a)"))
+# total_price =  b*c
+# print(total_price) 
+    
+# product = {"apple" : 80 ,
+#            "banana" : 60 ,
+#            "coconut" : 90 ,
+#            "grapes" : 120 
+#            }
+# cart = []
+# def add_items(items) : 
+
